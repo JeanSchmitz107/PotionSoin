@@ -19,6 +19,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        
+        UsePotion(20, 50);
+    }
+
+    public static void UsePotion(int healthPoints, int healingAmount)
+    {
+        Console.WriteLine("Le héros possède maintenant " + (healthPoints + healingAmount) + " PV.");
     }
 }
